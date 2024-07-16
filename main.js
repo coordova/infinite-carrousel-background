@@ -11,6 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	// Loop through each carousel
 	carousels.forEach((carousel, index) => {
+		// console.log(carousel, index);
 		// Get the inner div of each carousel
 		const carouselInner = carousel.querySelector(".infinite-carousel div");
 		// Get the inner content (images) from the carousel

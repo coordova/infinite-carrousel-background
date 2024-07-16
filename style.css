@@ -111,14 +111,14 @@ p {
 }
 
 .btn:hover {
-	background-color: #111;
+	background-color: #222222;
 	/* color: #000; */
 }
 
 /* Movement Animation */
 @keyframes move {
 	to {
-		transform: translate(calc(-50% - 0.4em));
+		transform: translateY(calc(-50% - 0.4em));
 	}
 }
 
