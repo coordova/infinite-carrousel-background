@@ -41,7 +41,8 @@ body {
 	height: 200%;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%) rotate(25deg);
+	/* transform: translate(-50%, -50%) rotate(25deg); Rotate the carousels 25 degrees */
+	transform: translate(-50%, -50%) rotate(0deg); /* Rotate the carousels 25 degrees */
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
